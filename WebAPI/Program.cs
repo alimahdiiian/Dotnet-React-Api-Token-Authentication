@@ -23,10 +23,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-builder.Services.AddMvc();
-
 // Add services to the container.
+builder.Services.AddMvc();
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -43,7 +43,11 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//the order in this case matters
+app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",
