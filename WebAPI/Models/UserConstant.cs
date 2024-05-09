@@ -21,7 +21,17 @@
                  EmailAddress = "schahrad@gmail.com",
                   PassWord= "Schahrad2024",
                    GivenName="schahrad",
-                    Role="student",
+                    Role="Student",
+                     SureName="mahidan"
+            },
+
+            new UserModel()
+            {
+                 UserName = "Sara",
+                 EmailAddress = "sara@gmail.com",
+                  PassWord= "Sara2024",
+                   GivenName="sara",
+                    Role="Teacher",
                      SureName="mahidan"
             }
 
