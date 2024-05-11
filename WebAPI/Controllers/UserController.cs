@@ -75,15 +75,15 @@ namespace WebAPI.Controllers
                 {
 
                     UserName = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.NameIdentifier)?.Value ?? "Schahraad",
+                    ClaimTypes.NameIdentifier)?.Value ?? string.Empty,
                     EmailAddress = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.Email)?.Value ?? "schahrad@gmail.com",
+                    ClaimTypes.Email)?.Value ?? string.Empty,
                     GivenName = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.GivenName)?.Value ?? "schahrad",
+                    ClaimTypes.GivenName)?.Value ?? string.Empty,
                     SureName = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.Surname)?.Value ?? "mahidan",
+                    ClaimTypes.Surname)?.Value ?? string.Empty,
                     Role = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.Role)?.Value ?? "Administrator",
+                    ClaimTypes.Role)?.Value ?? string.Empty,
 
                 };
             }

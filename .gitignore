@@ -1,0 +1,12 @@
+# Ignore compiled files
+*.exe
+*.dll
+*.class
+
+# Ignore directories
+bin/
+obj/
+node_modules/
+
+# Ignore specific files
+debug.log

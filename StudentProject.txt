@@ -1,7 +1,0 @@
- - dotNet Core Api
- - Sql server
- - Entity Framework (ORM for DB)
- - React library => front-end 
- - Material UI => design UI (using react hooks in component)
- - React-Redux => react state management 
- - discuss Real-time form validation inside react 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\BackEnd\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\BackEnd\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\BackEnd\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\BackEnd\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\SCHAHRAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\BackEnd\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SCHAHRAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,9 +49,27 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[7.5.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
