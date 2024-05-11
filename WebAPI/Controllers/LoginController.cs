@@ -21,10 +21,12 @@ namespace WebAPI.Controllers
             _config = config;
         }
 
+
         [AllowAnonymous]
         [HttpPost]
         public IActionResult Login([FromBody] UserLogin userLogin)
         {
+
             var user = Authenticate(userLogin);
 
             if (user != null)
@@ -80,9 +82,6 @@ namespace WebAPI.Controllers
 
             return null;
         }
-
-
-
 
     }
 }

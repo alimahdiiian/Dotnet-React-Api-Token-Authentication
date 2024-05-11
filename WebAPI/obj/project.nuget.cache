@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "lg25aBtE800f8mDlMKV+TOj+FhJymCcZCVGyGECy2eD2Wl4LfWlgYm8AWOz5C3LGNX7txU5qg4gzMIN+YBF8Bw==",
+  "dgSpecHash": "3PFYa6ILgDH2v/2YYsslGp8GEPHL2wK1WIbwnn2k5DkUjlKt2pteZYAiPXCy3BSCLslvgsiqmtJrP07W6Xob7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\SCHAHRAD\\source\\repos\\StudentProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.4\\microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
     "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.5.1\\microsoft.identitymodel.abstractions.7.5.1.nupkg.sha512",
-    "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.5.1\\microsoft.identitymodel.jsonwebtokens.7.5.1.nupkg.sha512",
     "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.identitymodel.logging\\7.5.1\\microsoft.identitymodel.logging.7.5.1.nupkg.sha512",
     "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
     "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\SCHAHRAD\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.1\\microsoft.identitymodel.tokens.7.5.1.nupkg.sha512",
-    "C:\\Users\\SCHAHRAD\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+    "C:\\Users\\SCHAHRAD\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.1\\system.identitymodel.tokens.jwt.7.5.1.nupkg.sha512"
   ],
   "logs": []
 }

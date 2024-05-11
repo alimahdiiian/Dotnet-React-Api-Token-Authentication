@@ -6,34 +6,23 @@
         {
             new UserModel()
             {
-                    UserName = "John_Doei",
-                 EmailAddress = "John@gmail.com",
-                  PassWord= "John2024",
-                   GivenName="John",
-                    Role="Administrator",
-                     SureName="Doei"              
-
-            },
-
-            new UserModel()
-            {
-               UserName = "Schahraad",
+                UserName = "Schahraad",
                  EmailAddress = "schahrad@gmail.com",
-                  PassWord= "Schahrad2024",
+                  PassWord= "schahrad@2022",
                    GivenName="schahrad",
-                    Role="Student",
+                    Role="Administrator",
                      SureName="mahidan"
             },
-
-            new UserModel()
+             new UserModel()
             {
-                 UserName = "Sara",
-                 EmailAddress = "sara@gmail.com",
-                  PassWord= "Sara2024",
-                   GivenName="sara",
-                    Role="Teacher",
-                     SureName="mahidan"
-            }
+                UserName = "John_Doei",
+                 EmailAddress = "John@gmail.com",
+                  PassWord= "John@2022",
+                   GivenName="John",
+                    Role="Seller",
+                     SureName="Doei"
+            },
+
 
         };
     }

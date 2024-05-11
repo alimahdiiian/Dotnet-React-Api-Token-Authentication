@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using WebAPI.Models;
+using WebAPI.Services;
 
 namespace WebAPI.Controllers
 {
@@ -12,8 +13,8 @@ namespace WebAPI.Controllers
     public class UserController : ControllerBase
     {
 
-        private readonly IEmailSender _emailSender;
-        public UserController(IEmailSender emailSender)
+        private readonly IEmailSenderService _emailSender;
+        public UserController(IEmailSenderService emailSender)
         {
             _emailSender = emailSender;
         }
@@ -21,7 +22,7 @@ namespace WebAPI.Controllers
         [HttpGet("Public")]
         public IActionResult Public ()
         {
-            return Ok("Hi, you are in public property !");
+            return Ok("Hi, you are in public area !");
         }
 
 
@@ -30,14 +31,14 @@ namespace WebAPI.Controllers
         public IActionResult AdminsEndpoint()
         {
             var currentUser = GetCurrentUser();
-            //string email = _emailSender.SendEmail("send an Email");
+            string email = _emailSender.SendEmail("send an Email");
             return Ok($"you are {currentUser.UserName}" +
                 $" and your role is {currentUser.Role} and the" +
-                $" message is "); // add email here
+                $" message is {email}"); 
         }
 
         [HttpGet("Sellers")]
-        [Authorize(Roles = "Student")]
+        [Authorize(Roles = "Seller")]
         public IActionResult SellersEndpoint()
         {
             var currentUser = GetCurrentUser();
@@ -48,8 +49,8 @@ namespace WebAPI.Controllers
         }
 
         //another endpoint for admin & seller together
-        [HttpGet("Admins&Teachers")]
-        [Authorize(Roles = "Administrator,Teacher")]
+        [HttpGet("Admins&Sellers")]
+        [Authorize(Roles = "Administrator,Seller")]
         public IActionResult AdminsAndSellersEndpoin()
         {
             var currentUser = GetCurrentUser();
@@ -72,17 +73,15 @@ namespace WebAPI.Controllers
                 {
 
                     UserName = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.NameIdentifier)?.Value,
+                    ClaimTypes.NameIdentifier)?.Value ?? "Schahraad",
                     EmailAddress = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.Email)?.Value,
+                    ClaimTypes.Email)?.Value ?? "schahrad@gmail.com",
                     GivenName = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.GivenName)?.Value,
+                    ClaimTypes.GivenName)?.Value ?? "schahrad",
                     SureName = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.Surname)?.Value,
+                    ClaimTypes.Surname)?.Value ?? "mahidan",
                     Role = userClaim.FirstOrDefault(u => u.Type ==
-                    ClaimTypes.Role)?.Value,
-
-
+                    ClaimTypes.Role)?.Value ?? "Administrator",
 
                 };
             }
