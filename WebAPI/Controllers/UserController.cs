@@ -37,9 +37,11 @@ namespace WebAPI.Controllers
                 $" message is {email}"); 
         }
 
-        [HttpGet("Sellers")]
-        [Authorize(Roles = "Seller")]
-        public IActionResult SellersEndpoint()
+
+
+        [HttpGet("Teachers")]
+        [Authorize(Roles = "Teacher, Administrator")]
+        public IActionResult TeachersEndpoint()
         {
             var currentUser = GetCurrentUser();
             return Ok($"you are {currentUser.UserName} and your role is " +
@@ -48,16 +50,16 @@ namespace WebAPI.Controllers
                 $"your email is {currentUser.EmailAddress}");
         }
 
-        //another endpoint for admin & seller together
-        [HttpGet("Admins&Sellers")]
-        [Authorize(Roles = "Administrator,Seller")]
-        public IActionResult AdminsAndSellersEndpoin()
+       
+
+        [HttpGet("Students")]
+        [Authorize(Roles ="Student,Administrator")]
+        public IActionResult StudentsEndpoint()
         {
             var currentUser = GetCurrentUser();
             return Ok($"you are a {currentUser.Role} and your name is " +
                 $"{currentUser.UserName}");
         }
-
 
 
 

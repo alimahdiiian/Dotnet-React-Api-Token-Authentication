@@ -8,7 +8,7 @@
             {
                 UserName = "Schahraad",
                  EmailAddress = "schahrad@gmail.com",
-                  PassWord= "schahrad@2022",
+                  PassWord= "schahrad2024",
                    GivenName="schahrad",
                     Role="Administrator",
                      SureName="mahidan"
@@ -17,11 +17,21 @@
             {
                 UserName = "John_Doei",
                  EmailAddress = "John@gmail.com",
-                  PassWord= "John@2022",
+                  PassWord= "john2024",
                    GivenName="John",
-                    Role="Seller",
+                    Role="Teacher",
                      SureName="Doei"
             },
+
+             new UserModel()
+             {
+                  UserName = "Sara_Müller",
+                 EmailAddress = "sara@gmail.com",
+                  PassWord= "sara2024",
+                   GivenName="Sara",
+                    Role="Student",
+                     SureName="Müller"
+             }
 
 
         };
