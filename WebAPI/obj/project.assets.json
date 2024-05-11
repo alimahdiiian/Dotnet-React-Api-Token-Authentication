@@ -325,11 +325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SCHAHRAD\\source\\repos\\StudentProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\SCHAHRAD\\source\\repos\\StudentProject\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\SCHAHRAD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SCHAHRAD\\source\\repos\\StudentProject\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Token-Authentication\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SCHAHRAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
