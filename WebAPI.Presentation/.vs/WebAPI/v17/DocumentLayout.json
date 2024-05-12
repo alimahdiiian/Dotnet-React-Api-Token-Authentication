@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Student\\BackEnd\\WebAPI.Presentation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2691C7AC-5D93-4EB4-99CC-BD318A1D84AE}|WebAPI.Presentation.csproj|c:\\users\\schahrad\\source\\repos\\dotnet-react-api-student\\backend\\webapi.presentation\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691C7AC-5D93-4EB4-99CC-BD318A1D84AE}|WebAPI.Presentation.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691C7AC-5D93-4EB4-99CC-BD318A1D84AE}|WebAPI.Presentation.csproj|c:\\users\\schahrad\\source\\repos\\dotnet-react-api-student\\backend\\webapi.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691C7AC-5D93-4EB4-99CC-BD318A1D84AE}|WebAPI.Presentation.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Student\\BackEnd\\WebAPI.Presentation\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Student\\BackEnd\\WebAPI.Presentation\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAA1wAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T08:36:29.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Student\\BackEnd\\WebAPI.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\SCHAHRAD\\source\\repos\\Dotnet-React-Api-Student\\BackEnd\\WebAPI.Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T08:36:24.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
